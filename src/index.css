@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   font-family: 'Concert One', cursive;
+}
+
+body{
+    /*background-color: #354f52;*/
+    background-image: linear-gradient(to left bottom, #29363d, #2c3c43, #2f4248, #32494d, #354f52);
+    height: 100vh;
+}

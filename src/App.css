@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 100%;
+}
+
+.form {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.list {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    padding: 10px;
+}
+
+.container-span-loading {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.span-loading {
+    font-size: 17px;
+    color: #a7bea9;
+}

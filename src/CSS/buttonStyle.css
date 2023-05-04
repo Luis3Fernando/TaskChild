@@ -1,0 +1,26 @@
+.button {
+    background-color: #52796f;
+    box-shadow: 0px 0px 6px #A7BEA9;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    position: fixed;
+    bottom: 24px;
+    left: 24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+    z-index: 1;
+
+    transform: rotate(0);
+    transition: .3s ease;
+}
+
+.button:hover {
+    transform: rotate(224deg);
+}
