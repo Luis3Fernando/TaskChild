@@ -4,9 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 24px 40px 0 40px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 20px;
+    margin: 35px 40px 0 30px;
+    border-radius: 10px;
 }
 
 .item-p {

@@ -1,12 +1,14 @@
+import { TaskContext } from "./context/Context";
+import { useContext } from "react";
+import { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import "./App.css";
+
 import ButtonItem from "./components/ButtonItem";
 import Counter from "./components/Counter";
 import Item from "./components/Item";
 import List from "./components/List";
 import Search from "./components/Search";
-import { TaskContext } from "./context/Context";
-import "./App.css";
-import { useContext } from "react";
-import { useState } from "react";
 import FormTask from "./components/FormTask";
 import ModalCard from "./components/ModalCard";
 import Programmer from './components/Programmer'
@@ -78,6 +80,8 @@ function App() {
           )}
           
         </div>
+
+        <ToastContainer></ToastContainer>
       </div>
     </>
   );

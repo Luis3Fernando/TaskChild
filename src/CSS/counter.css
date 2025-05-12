@@ -1,5 +1,5 @@
 .title {
-    font-size: 60px;
+    font-size: 55px;
     text-align: center;
     margin: 0;
     padding: 55px;
@@ -8,5 +8,6 @@
 
 .title-span{
     color: #cad2c5;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 400;
 }

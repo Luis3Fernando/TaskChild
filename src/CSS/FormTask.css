@@ -32,6 +32,8 @@
     color: #e9e9e9;
     border-style: none;
     font-size: 15px;
+    transition: all 0.3s ease-in-out;
+
 }
 
 .formTask-input:focus {
@@ -45,7 +47,7 @@
     outline: 2px solid #84a98c;
     font-size: 18px;
 }
-
+ 
 .formTask-textarea {
     margin-top: 30px;
     align-self: center;
@@ -77,10 +79,11 @@
     margin-top: 30px;
     border-radius: 5px;
     align-self: center;
-    /*background-color: #28343b;*/
     background-color: #313131;
     color: #e9e9e9;
     border-style: none;
+    transition: all 0.3s ease-in-out;
+
 }
 
 .formTask-button:hover {
@@ -89,13 +92,22 @@
     transform: scale(1.1);
 }
 
-.formTask>img {
+.formTask > img {
     margin-top: 30px;
     width: 250px;
     height: 250px;
     align-self: center;
+    transition: transform 0.8s ease-in-out;
+    animation: floating 6s ease-in-out infinite;
 }
 
-.formTask>img:hover {
-    transform: scale(1.01);
+.formTask > img:hover {
+    transform: scale(1.05) rotate(1deg);
+}
+
+
+@keyframes floating {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
 }
