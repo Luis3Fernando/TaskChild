@@ -6,7 +6,7 @@ import "../CSS/buttonStyle.css";
 function ButtonItem() {
   const {setOpenModal} = useContext(TaskContext);
   return (
-    <button className="button" onMouseOver={() => setOpenModal(prevState => !prevState)} onMouseOut={() => setOpenModal(prevState => !prevState)}>
+    <button className="button" onClick={() => setOpenModal(prevState => !prevState)}>
       +
     </button>
   );
