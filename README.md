@@ -24,7 +24,7 @@ I thought in the future create your app for tablets and children order their hom
 **Example of use**  
 You can see what the web program looks like visually:
 
-<img src="src/assets/screenshots/main" width="600"/>
+<img src="src/assets/screenshots/main.png" width="600"/>
 
 Search results of any task, the filter is by the initial word:
 
